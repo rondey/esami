@@ -3,7 +3,7 @@ services:
     image: node:24
     user: node
     volumes:
-      - ./backend:/home/node/app
+      - ./esami_backend:/home/node/app
     ports:
       - 3000:3000
     working_dir: /home/node/app/esami
@@ -14,7 +14,7 @@ services:
     image: node:24
     user: node
     volumes:
-      - ./frontend:/home/node/app
+      - ./esami_frontend:/home/node/app
     ports:
       - 4200:4200
     working_dir: /home/node/app/esami

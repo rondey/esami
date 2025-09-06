@@ -1,0 +1,6 @@
+[submodule "esami_backend"]
+	path = esami_backend
+	url = git@github.com:rondey/esami_backend.git
+[submodule "esami_frontend"]
+	path = esami_frontend
+	url = git@github.com:rondey/esami_frontend.git
