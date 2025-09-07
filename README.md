@@ -23,7 +23,8 @@ L'unico prerequisito richiesto è l'installazione di
      1) `docker compose run frontend npm install`
     
 ## Lanciare il progetto in locale
-- `docker compose up`
+1) `docker compose up`
+2) Una volta che il frontend è in esecuzione, il sito web sarà raggiungibile alla pagina [http://localhost:4200](http://localhost:4200)
 
 ## Disinstallazione del progetto:
 1) `docker compose down`
