@@ -29,3 +29,8 @@ L'unico prerequisito richiesto è l'installazione di
 ## Disinstallazione del progetto:
 1) `docker compose down`
 1) Eliminare la cartella del progetto
+
+
+## File di configurazione .ini
+
+Come da consegna, il backend è in grado di leggere e interpretare i file di configurazione ".ini". Nella sua configurazione di default, il backend legge il file "./esami_backend/config.ini". All'interno di "./esami_backend/src/config/ini-config.ts" sono presenti le varie classi che definiscono i vari gruppi "Predefiniti_". Si ricorda che TypeScript non supporta il concetto di classi statiche che è invece presente in C#. Si è dunque optato per creare delle classi astratte con variabili statiche per simulare il comportamento delle classi statiche.
